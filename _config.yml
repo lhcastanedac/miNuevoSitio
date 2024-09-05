@@ -37,7 +37,7 @@ twitter_username: LCC
 github_username:  LCC
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
 
 plugins:
   - jekyll-feed
