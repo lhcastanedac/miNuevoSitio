@@ -1,20 +1,20 @@
 
 # Titulo por defecto 
-title: Your awesome title
+title: Mi primer sitio
 
 # Email por defecto
-email: your-email@example.com
+email: micorreoelectronico@example.com
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-# La carpeta del Site 
-baseurl: "/miNuevoSitio" # e.g. /myblog
+# La carpeta del Site ejem. /myblog
+baseurl: "/miNuevoSitio"  
 
-# El URL raiz para las paginas 
-url: "https://lhcastanedac.github.io/" #  e.g. http://mysite.com
+# El URL raiz para las paginas ejem. http://mysite.com
+url: "https://lhcastanedac.github.io/"   
 
 # Variable para definir una cuenta de Twitter  
 twitter_username: LCC
@@ -29,7 +29,6 @@ plugins:
   - jekyll-feed
 
 
-
 defaults:
 -
   scope:
@@ -38,4 +37,9 @@ defaults:
     layout: "post"
     author: "Nombre Apellido"
 
-
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  auto_ids: true
+  toc_levels: 1..4
+  
