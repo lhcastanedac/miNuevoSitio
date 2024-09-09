@@ -4,3 +4,5 @@
 
 layout: home
 ---
+<h1>{{ "Aqui va la imagen del LOGOTIPO" | downcase }}</h1>
+
